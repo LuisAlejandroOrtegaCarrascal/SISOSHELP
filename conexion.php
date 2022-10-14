@@ -1,6 +1,6 @@
 
 <?php
-  $conexion = mysqli_connect("", "", "", "") or
+  $conexion = mysqli_connect("bqgj3vktraotxhl4aivy-mysql.services.clever-cloud.com", "ualk23eekc8nmjyd", "qodAs1iWoZc85lPd0lYR", "bqgj3vktraotxhl4aivy") or
     die("Problemas con la conexión");
 
   mysqli_query($conexion, "insert into empleado(numdocumento, tipodoc, nombre, apellido, telefono, direc, mail) values ('$_REQUEST[numdocumento]','$_REQUEST[tipodoc]','$_REQUEST[nombre]','$_REQUEST[apellido]','$_REQUEST[telefono]','$_REQUEST[direc]','$_REQUEST[mail]')")

@@ -5,7 +5,7 @@ include ("vista/cabecera.php");
 ?>
 
 <?php
-  $conexion = mysqli_connect("", "", "", "") or
+  $conexion = mysqli_connect("bqgj3vktraotxhl4aivy-mysql.services.clever-cloud.com", "ualk23eekc8nmjyd", "qodAs1iWoZc85lPd0lYR", "bqgj3vktraotxhl4aivy") or
   die("Problemas con la conexión");
 
   include ("funciones/eliminar.php");
