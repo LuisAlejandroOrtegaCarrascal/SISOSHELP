@@ -8,7 +8,7 @@ include ("vista/cabecera.php");
 <div class="card" style=" width: 600px; height: 500px; border-radius: 10px; border: solid 1px black; margin-top: 30px;">
   <div class="card-header"><h1>Ingrese sus datos</h1></div>
   <div class="card-body">
-  <form action="tabla.php" method="post">
+  <form action="conexion.php" method="post">
   <div class="form-group">
       <select id="disabledSelect" class="form-control" name="tipodoc">
         <option disabled selected>Seleccione un tipo de documento</option>
@@ -39,7 +39,7 @@ include ("vista/cabecera.php");
       <input type="email" class="form-control" placeholder="Correo electrónico" name="mail">
   </div>
   <div class="card-footer">
-    <button type="submit" class="btn btn-primary text-white" value="Registrar">Guardar</button>
+    <button type="submit" class="btn btn-primary text-white" value="Registrar" href="tabla.php">Guardar</button>
   </div>
 </div>
 </div>
